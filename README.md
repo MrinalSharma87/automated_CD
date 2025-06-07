@@ -2,7 +2,7 @@
 
 A web-based tool that detects, analyzes, and summarizes changes between two versions of regulatory or policy documents using NLP techniques.
 
-![Python](https://img.shields.io/badge/Python-3.9-blue?logo=python) ![Flask](https://img.shields.io/badge/Flask-Web%20Framework-yellow?logo=flask) ![Transformers](https://img.shields.io/badge/HuggingFace-Transformers-orange?logo=huggingface) ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+
 
 ## 🚀 Features
 
@@ -51,13 +51,6 @@ python backend.py
 ### 5. Open the frontend
 Open `index.html` in a browser (preferably using a Live Server if available).
 
-
-
-## 🧪 Sample Use Case
-
-1. Upload two document versions.  
-2. Click **Analyze**.  
-3. View categorized, summarized results instantly.
 
 
 
