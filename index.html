@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GMP Document Change Analyzer</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📄 Regulatory Document Change Analyzer</h1>
+    <div class="innerContainer">
+        <div class="fileCard">
+            <label>Upload Old Version:</label>
+            <input type="file" id="file1"><br><br>
+            <label>Upload New Version:</label>
+            <input type="file" id="file2"><br><br>
+            <button id="analyze-button">🔍 Analyze Changes</button>
+        </div>
+    
+    </div>
+
+    <div id="loading" style="display:none; margin-top:15px;">⏳ Processing...</div>
+
+    <div id="results" style="margin-top: 20px;"></div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
