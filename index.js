@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
           card.className = "result-card";
 
           card.innerHTML = `
-            <div class="summary">🔄 ${change.change_summary}</div>
+            <div class="summary"> ${change.change_summary}</div>
             <div class="detail"><strong>Type:</strong> ${change.change_type}</div>
             <div class="detail"><strong>Impact:</strong> ${change.potential_impact}</div>
           `;
