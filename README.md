@@ -16,7 +16,7 @@ A web-based tool that detects, analyzes, and summarizes changes between two vers
 
 | Component    | Technology                          |
 |--------------|-------------------------------------|
-| Backend      | Python, Flask, Torch,   |
+| Backend      | Python, Flask, Torch   |
 | Frontend     | HTML, CSS, Vanilla JavaScript       |
 | NLP Model    | `philschmid/bart-large-cnn-samsum`  |
 | Others       | Flask-CORS                          |
